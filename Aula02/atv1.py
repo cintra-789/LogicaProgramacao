@@ -11,3 +11,5 @@ print("Aqui estão as suas informações:")
 print("Data de nascimento: ",data)
 print("Altura: ",altura)
 print("Peso: ", peso,"kg")
+
+print(type(nome))

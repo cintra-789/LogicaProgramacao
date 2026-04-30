@@ -4,4 +4,4 @@ num2 = input("Digite o segundo número: ")
 num = int(num)
 num2 = int(num2)
 div = num2 / num
-print("A divisão é: ",(div))
+print(f"A divisão é: {div:.2f}")

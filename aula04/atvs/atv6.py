@@ -20,34 +20,24 @@
 19- Peça a distancia percorrida e o combustivel gasto e exiba o consumo medio do veiculo solicite um numero e exiba o valor absoluto dele 
 20- Solicite um numero e exiba o valor absoluto dele (sem considerar o sinal)
 """
-num1 = input("Digite um numero: ")
-num2 = input("Digite o segundo numero: ")
-num3 = input("Digite o terceiro numero: ")
-num4 = input("Digite o quarto numero: ")
-num5 = input("Digite o quinto numero: ")
-num6 = input("Digite o sexto numero: ")
-num7 = input("Digite o setimo numero: ")
-num8 = input("Digite o oitavo numero: ")
-num9 = input("Digite o nono numero: ")
-num10 = input("Digite o décimo numero: ")
-num1 = int(num1)
-num2 = int(num2)
-num3 = int(num3)
-num4 = int(num4)
-num5 = int(num5)
-num6 = int(num6)
-num7 = int(num7)
-num8 = int(num8)
-num9 = int(num9)
-num10 = int(num10)
-print("O dobro de cada número e: ")
-print((num1),"* 2  =", (num1)*2)
-print((num2),"* 2  =", (num2)*2)
-print((num3),"* 2  =", (num3)*2)
-print((num4),"* 2  =", (num4)*2)
-print((num5),"* 2  =", (num5)*2)
-print((num6),"* 2  =", (num6)*2)
-print((num7),"* 2  =", (num7)*2)
-print((num8),"* 2  =", (num8)*2)
-print((num9),"* 2  =", (num9)*2)
-print((num10),"* 2  =", (num10)*2)
+"""import os, time
+
+lista_numero = [1,2,3,4,5,6,7,8,9,10]
+for num in lista_numero:
+    dobro = num * 2
+    print(f"O dobro de {num} é {dobro}")
+time.sleep(10)
+os.system("cls")"""
+
+"""
+#NOTE - Code do professor
+lista = [1,2,3,4,5,6,7,8,9,10]
+dobro = [v * 2 for v in lista]
+print(dobro)
+"""
+
+#NOTE - Outro jeito
+lista = [1,2,3,4,5,6,7,8,9,10]
+for i in lista:
+    dobro = i*2
+print(dobro)
