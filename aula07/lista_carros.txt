@@ -1,0 +1,2 @@
+ID: 1| Modelo: Uno| Valor: 1500.0| Marca: fiat
+ID: 2| Modelo: Corolla| Valor: 5000.0| Marca: toyota
